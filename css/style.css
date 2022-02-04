@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 1320px;
+    margin:auto;
+}
+.div-1 h2 {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    background: green;
+}
+
+.div-1 p {
+    margin-top: 50px;
+    font-size: 33px;
+    color: purple;
+}
+.image-left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.image-right img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.image-left {
+    float: right;
+}
+
+.image-right {
+    float: left;
+}
