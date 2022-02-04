@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
+
 <body>
     <a href="../index.html">Home</a>
-    <a href="./about.html">About</a>
-    <center><h1>Hello 👋</h1></center>
-    <h2>You want to contact me? 😀</h2>
-    <a href="mailto:julfiker755.bd@gmail.com">julfiker755.bd@gmail.com</a>
-    <br/>
-    <br/>
-    <a href="tel: +880 1741703755">0 1741703755</a>
-    <br/>
-    <br/>
-    <a href="https://www.facebook.com/julfikerrahaman.jim/">Facebook</a>
-  <!-- 
-      External lilk:::<a href="tel: +880 1741703755">+880 1787463481</a>
-      Internal lilk::: <a target="_blank" href="tel: +880 1741703755">+880 1787463481</a>
-   -->
-    </body>
+    <a href="./about.html">About</a><br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <from action="./thankyou.html">
+        <label>Frist Name</label><br>
+        <input id="name" name="name" type="text" placeholder="Enter frist name"><br><br>
+        <label>Last Name</label><br>
+        <input name="name" type="text" placeholder="Enter last name"><br><br>
+        <label>Address</label><br>
+        <input name="address" type="text" placeholder="Enter address name"><br><br>
+        <label>Phone Number</label><br>
+        <input name="number" type="text" value="+880"><br><br>
+        <label>Contary</label><br>
+        <select id="uu">
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option>Varot</option>
+            <option>Pkistan</option>
+            <option>Nepal</option>
+            <option>varot</option>
+        </select><br>
+        <label>Email</label><br>
+        <input name="email" type="email" placeholder="Enter email name"><br><br>
+        <label>Date of Brith</label><br>
+        <select>
+          <option>Date</option> <option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option> <option>6</option> <option>7</option> <option>8</option> <option>9</option> <option>10</option> <option>11</option> <option>12</option> <option>13</option> <option>14</option>
+        </select>
+        <select>
+            <option>Manth</option> <option>January </option> <option>February</option> <option>March </option> <option>April </option> <option>May</option> <option>June </option> <option>July </option> <option>August </option> <option>September</option> <option>October </option> <option>November</option> <option>December </option>
+          </select>
+          <select>
+            <option>2001</option> <option>2002</option> <option>2003</option> <option>2004 </option> <option>2005</option> <option>2006</option> <option>2007</option> <option>2008</option> <option>2009</option> <option>2010</option> <option>2011</option> <option>2012</option> <option>2013</option>
+          </select><br><br>
+          <label>Gender</label><br>
+          <input name="gender" type="radio" value="male">Male<br>
+          <input name="gender" type="radio" value="Famale">Famale<br>
+          <input name="gender" type="radio" value="other">other<br><br>
+          <label>Chose Your Favorite Color</label><br>
+              <input type="checkbox" value="red">Red
+              <input type="checkbox" value="green">Green
+              <input type="checkbox" value="orange">Orange
+              <input type="checkbox" value="white">White
+              <input type="checkbox" value="bule">Bule
+              <input type="checkbox" value="black">Black<br><br>
+              <label>Other option chose color</label><br>
+              <input type="color"><br><br>
+              <label>About Yourself</label><br>
+              <textarea placeholder="Enter Your About text" rows="8" cols="60"></textarea><br><br/>
+              <button  type="reset">Reset From</button>&nbsp;&nbsp;&nbsp;<button name="submit" type="submit">Submit From</button><br>
+    </from>
+
+<h4><em>My second from</em></h4>
+    <form action="./thankyou.html">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+</body>
 </html>
