@@ -1,0 +1,142 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.box-1{
+    width:150px;
+    height: 100px;
+    background-color: red;
+    flex-grow: 1;
+}
+.box-2{
+    width:150px;
+    height: 100px;
+    background-color: rgb(47, 0, 255);
+    flex-grow: 3;
+}
+.box-3{
+    width:150px;
+    height: 100px;
+    background-color: rgb(0, 255, 0);
+    flex-grow: 8;
+}
+.box-area{
+    border:1px solid red;
+    display:flex;
+    justify-content:space-between;
+}
+/* ------------
+login from
+-------------- */
+form.login-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-area {
+    display: flex;
+    justify-content: center;
+}
+label#jj11 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input#button22 {
+    margin-top: 10px;
+    background: red;
+    border: none;
+    padding: 10px 0px;
+    color: white;
+}
+.button {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background: green;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    align-content: center;
+}
+/* -------grid------ */
+/* 
+grid-template-columns: 200px 200px;
+grid-template-columns: 200px 200px 200px 200px;
+grid-template-columns: repeat(3,50%);
+//moust popular use //
+grid-template-columns: repeat(3,1fr);
+======================================
+grid-gap:20px;
+grid-gap:20px 10px;
+*/
+.grid-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid-call{
+    border:1px solid red;
+}
+/* 
+
+grid-template-rows:repeat(5,1fr);
+grid-template-rows: 2em repeat(5,1fr);
+ */
+
+ .calender-area{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    grid-template-rows: 2em repeat(5,1fr);
+    grid-gap: 5px;
+    height: 500px;
+   
+}
+.calender,
+.day{
+    background-color: green;
+    border-radius:15px;
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.day{
+    font-size: 13px;
+}
+/*------------responsive------------ */
+img{
+    width: 150px;
+    height:150px;
+}
+.boxarea{
+    display: flex;
+    
+}
+.box1{
+    border:2px solid red;
+    margin:0px 5px;
+   
+}
+@media (max-width:992px){
+    .box1{
+        background-color: red;
+    }
+}
+@media (min-width:1200px){
+    .box1{
+        background-color: green;
+    }
+}
