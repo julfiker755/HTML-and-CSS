@@ -1,0 +1,136 @@
+@media (min-width: 0px) and (max-width:991px) {
+    .nav-menu ul {
+        position: fixed;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: #03a9f4;
+        z-index: 44;
+        width: 300px;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        justify-content: inherit;
+        align-items: baseline;
+        padding: 0px 15px;
+        transform: translate(-347px);
+        transition: 0.5s;
+    }
+    
+    .nav-menu ul li {
+        padding: 15px 3px;
+    }
+    .mobile{
+        transform: translate(0px)!important;
+        -webkit-transform: translate(0px)!important;
+        -moz-transform: translate(0px)!important;
+        -ms-transform: translate(0px)!important;
+        -o-transform: translate(0px)!important;
+}
+    
+    li.active {
+        display: block;
+        width: 116px;
+        text-align: center;
+        height: 50px;
+    }
+    .mobile-icon{
+        cursor: pointer;
+        display: block;
+    }
+    .homeslider-wapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .slider-left {
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .slider-wapper h1 {
+        font-size: 41px;
+    }
+    
+    .slider-left h1:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    .box-1 img {
+        width: 89px;
+    }
+    .demo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .demo_video {
+        width: 87%;
+        position: relative;
+    }
+    .box-1 img {
+        width: 89px;
+    }
+    
+    .demo_details {
+        width: 100%;
+    }
+    
+    h1.section_title {
+        font-size: 25px;
+        color: #03a9f4;
+    }
+    .benefits_ads {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 85px 0;
+        flex-direction: column;
+    }
+    .benefits_ads p {
+        margin-top: 20px;
+    }
+    .benefits_card_slngle {
+        width: 100%;
+        text-align: center;
+    }
+    .start_wapper {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .start-left h1 {
+        font-size: 27px;
+    }
+    section#start {
+        background: linear-gradient(to right,royalblue 50%,royalblue 50%,royalblue 50%);
+        z-index: -1;
+        position: relative;
+    }
+    .start-left h1 {
+        font-size: 27px;
+    }
+    
+    .container.container-start-background:after {
+        display: none;
+    }
+    .payment-wapper {
+        display: flex;
+        align-items: center;
+        gap: 110px;
+        flex-direction: column;
+    }
+    .footer_content {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+        border-bottom: 1px solid rgba(221, 221, 221, 0.349);
+        flex-direction: column;
+    }
+    .footer_section:last-child {
+        align-self: flex-start;
+    }
+ }
